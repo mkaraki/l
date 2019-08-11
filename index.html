@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="link.js"></script>
+
+        <script>
+            var param = location.search.slice(1);
+            var r = query(param);
+        </script>
+    </head>
+    <body>
+        <script>
+            if (!r)
+            {
+                location.href = "https://mkaraki.app/?l404";
+            }
+        </script>
+    </body>
+</html>
