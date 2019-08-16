@@ -11,9 +11,6 @@ function query(sid)
         case "ghuser":
             location.href = "https://github.com/mkaraki";
             break;
-	case "qs":
-	    location.href = "https://download.teamviewer.com/download/TeamViewerQS.exe";
-	    break;
 
         default:
             return false;
