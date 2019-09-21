@@ -11,6 +11,9 @@ function query(sid)
         case "clock":
             location.href = "https://mkaraki.app/MultiClock";
             break;
+        case "timer":
+            location.href = "https://mkaraki.app/MultiClock/timer.html";
+            break;
         case "ghuser":
             location.href = "https://github.com/mkaraki";
             break;
