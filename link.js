@@ -8,6 +8,9 @@ function query(sid)
         case "idiot":
             location.href = "https://mkaraki.app/youareanidiot";
             break;
+        case "clock":
+            location.href = "https://mkaraki.app/MultiClock";
+            break;
         case "ghuser":
             location.href = "https://github.com/mkaraki";
             break;
