@@ -17,6 +17,10 @@ function query(sid)
         case "ghuser":
             location.href = "https://github.com/mkaraki";
             break;
+        case "callnow":
+        case "call":
+            location.href = "https://mkaraki.app/callnow/";
+            break;
 
         default:
             return false;
