@@ -21,6 +21,10 @@ function query(sid)
         case "call":
             location.href = "https://mkaraki.app/callnow/";
             break;
+        case "domain":
+        case "domaindb":
+            location.href = "https://mkaraki.app/domaindb/index.html";
+            break;
 
         default:
             return false;
